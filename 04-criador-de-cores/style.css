@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(175, 202, 212);
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.maker {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.maker,
+.maker__color {
+    border-radius: 5px;
+}
+
+.maker__color {
+    background: rgb(0, 0, 0);
+    width: 340px;
+    height: 230px;
+}
+
+.input-container {
+    margin: 20px 0;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="range"] {
+    width: 90%;
+}
